@@ -1,0 +1,106 @@
+/*Body*/
+
+body{
+    background-image: url(images/abuelo.webp);
+    background-size: cover;      /* se adapta y cubre todo */
+    background-repeat: no-repeat;/* no se repite */
+    margin: 0px;
+}
+
+/*titulo*/
+
+.title{
+    margin: 0px;
+    font-size: 30px;
+    background-color: bisque;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.title-1{
+    margin: 0px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+p{
+    font-size: 20px;
+}
+
+/*Header*/
+
+header {
+    margin: 0px;
+    color: #fff;
+    padding-top: 5px;
+    text-align: center;
+}
+
+header h1{
+    color: white;
+}
+
+header p{
+    color: white;   
+    padding-bottom: 10px;
+}
+
+
+/*Main*/
+
+main{
+    padding-left: 180px;
+    padding-right: 180px;
+    display: block;
+    align-items: center;
+}
+
+/*Palabras*/
+
+/*Flex*/
+
+.flex{
+    display: flex;
+}
+
+/*Containers*/
+
+.container{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-radius: 10px;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 610px 20px 20px 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: end;
+    border: 2px black solid;
+}
+
+
+
+/*Gallery*/
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 2000px;
+}
+
+/*imagenes*/
+
+.container img{
+    width: 260px;
+    height: 210px;
+    margin-top: 10px;
+    border: solid black 2px;
+    background-size: cover;
+}

@@ -1,0 +1,33 @@
+/*Body*/
+
+body{
+    background-image: url(images/un-abuelo-y-su-nieto-sentados-hablando-MINF12770.jpg);
+    background-repeat: no-repeat;/* no se repite */
+    background-size: 2000px;
+    background-size: cover;
+}
+
+/*Bubbles*/
+
+.text-bubble-1{
+    position: absolute;
+    top: 400px;
+    left: 750px;
+}
+
+
+.text-bubble-1 img{
+    width: 300px;
+}
+
+
+.text-bubble-2{
+    position: absolute;
+    top: 550px;
+    left: 450px;
+}
+
+.text-bubble-2 img{
+    width: 300px;
+    transform: rotateY(180deg);
+}
